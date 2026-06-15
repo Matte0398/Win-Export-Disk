@@ -1,4 +1,4 @@
- # WinExportDisk
+# Win-Export-Disk
 
 PowerShell script that exports Windows disk information, such as free space and total space, to a CSV file.
 
