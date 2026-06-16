@@ -8,7 +8,7 @@ It can also optionally copy the generated CSV file to a remote host and path.
 
 ## Features
 
-- Collects fixed disk information from Windows systems
+- Collects fixed disk information (DriveType = 3) from Windows systems
 - Supports local and remote systems
 - Reads target systems from an input file
 - Checks system reachability before collecting data
