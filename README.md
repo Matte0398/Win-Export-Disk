@@ -43,19 +43,18 @@ The generated CSV file includes:
 
 By default, the script reads the list of systems from:
 
-```text
+``` text
 C:\temp\system.txt
 
 server01,192.168.1.10
 server02,192.168.1.11
-localhost,127.0.0.1
 ```
 
 ## Output
 
 By default, the script creates output files under:
 
-```text
+``` text
 C:\temp\diskExport
 
 The following folders are created automatically:
@@ -71,7 +70,7 @@ Generated files:
 
 ## Usage
 
-```powershell
+``` powershell
 .\exportDiskInfo.ps1
 
 Specify a custom systems list:
@@ -93,3 +92,11 @@ Use a predefined credential:
 Ask for credentials for every remote system:
 
   .\exportDiskInfo.ps1 -AskAlwaysCred
+```
+
+## CSV Example
+
+| Hostname | Disk | Total GB | Used GB | Free GB |
+|-----------|--------|-----------|----------|----------|
+| SERVER01 | C: | 100 | 70 | 30 |
+| SERVER02 | D: | 200 | 120 | 80 |
