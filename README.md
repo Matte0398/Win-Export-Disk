@@ -100,3 +100,12 @@ Ask for credentials for every remote system:
 |-----------|--------|-----------|----------|----------|
 | SERVER01 | C: | 100 | 70 | 30 |
 | SERVER02 | D: | 200 | 120 | 80 |
+
+## Repository Structure
+
+``` text
+Win-Export-Disk/
+│   exportDiskInfo.ps1
+├── examples/
+│   ├── system.txt
+└── README.md
