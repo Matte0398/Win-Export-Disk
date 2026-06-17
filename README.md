@@ -56,41 +56,57 @@ By default, the script creates output files under:
 
 ``` text
 C:\temp\diskExport
+```
 
 The following folders are created automatically:
 
+``` text
   C:\temp\diskExport\CSV
   C:\temp\diskExport\Log
+```
 
 Generated files:
 
+``` text
   C:\temp\diskExport\CSV\diskExport-<timestamp>.csv
   C:\temp\diskExport\Log\log-<timestamp>.log
 ```
 
 ## Usage
 
+Run in the standard way:
+
 ``` powershell
 .\exportDiskInfo.ps1
+```
 
 Specify a custom systems list:
 
+``` powershell
   .\exportDiskInfo.ps1 -system_list "C:\temp\systems.txt"
+```
 
 Specify a custom export path:
 
+``` powershell
   .\exportDiskInfo.ps1 -path_export "C:\Reports\DiskExport"
+```
 
 Copy the generated CSV file to a remote host:
 
+``` powershell
   .\exportDiskInfo.ps1 -H "remote-server" -P "C:\temp"
+```
 
 Use a predefined credential:
 
+``` powershell
   .\exportDiskInfo.ps1 -Credential $credential
+```
 
 Ask for credentials for every remote system:
 
+``` powershell
   .\exportDiskInfo.ps1 -AskAlwaysCred
 ```
 
