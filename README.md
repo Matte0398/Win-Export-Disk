@@ -83,31 +83,31 @@ Run in the standard way:
 Specify a custom systems list:
 
 ``` powershell
-  .\exportDiskInfo.ps1 -system_list "C:\temp\systems.txt"
+.\exportDiskInfo.ps1 -system_list "C:\temp\systems.txt"
 ```
 
 Specify a custom export path:
 
 ``` powershell
-  .\exportDiskInfo.ps1 -path_export "C:\Reports\DiskExport"
+.\exportDiskInfo.ps1 -path_export "C:\Reports\DiskExport"
 ```
 
 Copy the generated CSV file to a remote host:
 
 ``` powershell
-  .\exportDiskInfo.ps1 -H "remote-server" -P "C:\temp"
+.\exportDiskInfo.ps1 -H "remote-server" -P "C:\temp"
 ```
 
 Use a predefined credential:
 
 ``` powershell
-  .\exportDiskInfo.ps1 -Credential $credential
+.\exportDiskInfo.ps1 -Credential $credential
 ```
 
 Ask for credentials for every remote system:
 
 ``` powershell
-  .\exportDiskInfo.ps1 -AskAlwaysCred
+.\exportDiskInfo.ps1 -AskAlwaysCred
 ```
 
 ## CSV Example
