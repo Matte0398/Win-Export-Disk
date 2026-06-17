@@ -96,10 +96,10 @@ Ask for credentials for every remote system:
 
 ## CSV Example
 
-| Hostname | Disk | Total GB | Used GB | Free GB |
-|-----------|--------|-----------|----------|----------|
-| SERVER01 | C: | 100 | 70 | 30 |
-| SERVER02 | D: | 200 | 120 | 80 |
+| System | IP address | Disk | Description | Filesystem | TotalSpace(GB) | UsedSpace(GB) | FreeSpace(GB) |
+|--------|------------|------|-------------|------------|----------------|---------------|---------------|
+| server01 | 192.168.1.11 | C: | Local Fixed Disk | NTFS | 100 | 70 | 30 |
+| server02 | 192.168.1.12 | D: | Local Fixed Disk | NTFS | 200 | 120 | 80 |
 
 ## Repository Structure
 
