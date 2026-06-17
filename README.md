@@ -39,7 +39,7 @@ The generated CSV file includes:
 - Permissions to query remote Windows systems
 - PowerShell remoting enabled on remote systems, if remote collection is required
 
-## Input File
+## Input
 
 By default, the script reads the list of systems from:
 
